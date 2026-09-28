@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harshit Verma — Portfolio</title>
+<title>Harshit Verma — B.Sc. Graduate Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -323,55 +324,7 @@
     border: 1px solid rgba(76,141,255,0.18);
     color: var(--text);
   }
-
-  /* ---------- projects ---------- */
-  .projects-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-  .project-card{
-    background: var(--panel);
-    border: 1px solid var(--panel-border);
-    border-radius: 12px;
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    transition: transform .3s ease, border-color .3s ease;
-  }
-  .project-card::before{
-    content:"";
-    position: absolute;
-    top: 0; left: 0; right: 0; height: 2px;
-    background: linear-gradient(90deg, transparent, var(--accent), transparent);
-    transform: scaleX(0);
-    transition: transform .4s ease;
-  }
-  .project-card:hover{ transform: translateY(-6px); border-color: var(--accent-dim); }
-  .project-card:hover::before{ transform: scaleX(1); }
-
-  .project-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 16px;
-  }
-  .project-tag{
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--accent);
-    border: 1px solid var(--accent-dim);
-    padding: 4px 10px;
-    border-radius: 20px;
-  }
-  .project-card h3{ font-size: 20px; margin-bottom: 10px; }
-  .project-card p{ color: var(--text-dim); font-size: 14.5px; margin-bottom: 18px; }
-  .project-links{ display: flex; gap: 18px; font-family: var(--mono); font-size: 13px; }
-  .project-links a{ color: var(--text); border-bottom: 1px solid var(--panel-border); padding-bottom: 2px; transition: color .25s ease, border-color .25s ease; }
-  .project-links a:hover{ color: var(--accent); border-color: var(--accent); }
-  .tech-list{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
-  .tech-list span{ font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
-  .tech-list span:not(:last-child)::after{ content: "·"; margin-left: 6px; color: var(--panel-border); }
+  
 
   /* ---------- contact ---------- */
   .contact-wrap{
@@ -439,7 +392,6 @@
   @media (max-width: 860px){
     .about-grid, .contact-wrap{ grid-template-columns: 1fr; }
     .skills-grid{ grid-template-columns: 1fr 1fr; }
-    .projects-grid{ grid-template-columns: 1fr; }
   }
 
   @media (max-width: 640px){
@@ -485,7 +437,7 @@
       <li><a href="#home" class="nav-link">Home</a></li>
       <li><a href="#about" class="nav-link">About</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
-      <li><a href="#projects" class="nav-link">Projects</a></li>
+     
       <li><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
@@ -500,7 +452,7 @@
     <div class="container hero-inner">
       <div class="hero-kicker"><span id="typedText"></span><span class="cursor"></span></div>
       <h1>Building things at the<br>intersection of <span class="accent-text">code</span> &amp; <span class="accent-text">ideas.</span></h1>
-      <p class="lede">I'm Harshit Verma, an Information Technology diploma student with foundational knowledge of software development, web technologies, databases, and AI-assisted applications — seeking an entry-level Software Developer or IT role.</p>
+      <p class="lede">I'm Harshit Verma, an B.Sc. graduate with a practical knowledge of software development, web technologies, databases, and AI-assisted applications — seeking an entry-level Software Developer or IT role.</p>
       <div class="btn-row">
         <a href="#projects" class="btn btn-primary">View Projects</a>
         <a href="resume.pdf" download class="btn btn-outline">↓ Download Resume</a>
@@ -515,16 +467,17 @@
       <h2 class="section-title reveal">About</h2>
       <div class="about-grid">
         <div class="about-text reveal">
-          <p>I'm a <strong>motivated Information Technology diploma student</strong> with foundational knowledge across software development, web technologies, databases, and AI-assisted applications.</p>
-          <p>I've built hands-on experience with <strong>Python, Java, and the modern web stack</strong> — from data structures and algorithms to full front-end interfaces with React and Bootstrap, backed by MySQL.</p>
-          <p>I completed a hands-on Java Summer Training at Hindtech Learning Point, focused on practical full-stack application development, and I'm currently looking for an entry-level Software Developer or IT role to keep growing.</p>
+          <p>I'm a <strong>motivated B.Sc. graduate</strong> with a strong academic foundation in analytical thinking, scientific reasoning, research, data interpretation, and problem-solving.</p>
+          <p>Through academic work and practical projects, I've developed experience in <strong>data analysis, documentation, presentations, digital tools, and structured research</strong>, along with strong communication and teamwork skills.</p>
+          <p>I'm currently looking for an opportunity where I can use my academic knowledge, learn from real-world challenges, and contribute effectively while continuing to develop professionally.</p>
         </div>
         <div class="info-card reveal">
-          <div class="info-row"><span class="label">status</span><span class="value">Seeking entry-level opportunities</span></div>
-          <div class="info-row"><span class="label">focus</span><span class="value">Software Development</span></div>
-          <div class="info-row"><span class="label">education</span><span class="value">Diploma in IT, Govt. Polytechnic Lucknow</span></div>
+          <div class="info-row"><span class="label">status</span><span class="value">B.Sc. Graduate</span></div>
+          <div class="info-row"><span class="label">focus</span><span class="value">Data, Research &amp; Analytical Skills</span></div>
+          <div class="info-row"><span class="label">education</span><span class="value">Bachelor of Science (B.Sc.)</span></div>
           <div class="info-row"><span class="label">based in</span><span class="value">Raebareli, Uttar Pradesh, India</span></div>
         </div>
+      </div>
       </div>
     </div>
   </section>
@@ -535,74 +488,44 @@
       <h2 class="section-title reveal">Skills</h2>
       <div class="skills-grid">
         <div class="skill-card reveal">
-          <h3>Languages &amp; Core</h3>
+          <h3>Analytical Skills</h3>
           <div class="chip-row">
-            <span class="chip">Python</span>
-            <span class="chip">Java</span>
-            <span class="chip">SQL</span>
-            <span class="chip">OOPs</span>
-            <span class="chip">Data Structures &amp; Algorithms</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <h3>Frontend Dev</h3>
-          <div class="chip-row">
-            <span class="chip">HTML5</span>
-            <span class="chip">CSS3</span>
-            <span class="chip">JavaScript</span>
-            <span class="chip">Bootstrap</span>
-            <span class="chip">React.js</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <h3>Databases &amp; Tools</h3>
-          <div class="chip-row">
-            <span class="chip">MySQL</span>
-            <span class="chip">VS Code</span>
-            <span class="chip">GitHub</span>
-          </div>
-        </div>
-        <div class="skill-card reveal">
-          <h3>Key Strengths</h3>
-          <div class="chip-row">
+            <span class="chip">Data Analysis</span>
             <span class="chip">Problem Solving</span>
-            <span class="chip">Quick Learner</span>
+            <span class="chip">Logical Reasoning</span>
+            <span class="chip">Research</span>
+            <span class="chip">Data Interpretation</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Academic &amp; Research</h3>
+          <div class="chip-row">
+            <span class="chip">Scientific Approach</span>
+            <span class="chip">Report Writing</span>
+            <span class="chip">Documentation</span>
+            <span class="chip">Presentation</span>
+            <span class="chip">Project Work</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Digital Skills</h3>
+          <div class="chip-row">
+            <span class="chip">MS Excel</span>
+            <span class="chip">MS Word</span>
+            <span class="chip">PowerPoint</span>
+            <span class="chip">Google Workspace</span>
+            <span class="chip">Internet Research</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Professional Skills</h3>
+          <div class="chip-row">
+            <span class="chip">Communication</span>
             <span class="chip">Teamwork</span>
-            <span class="chip">Effective Communication</span>
-            <span class="chip">Adaptability</span>
             <span class="chip">Time Management</span>
-            <span class="chip">Self-Motivated</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <div class="eyebrow reveal">selected work</div>
-      <h2 class="section-title reveal">Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="project-top">
-            <h3>AI Stock Predictor</h3>
-            <span class="project-tag">Academic / Personal</span>
-          </div>
-          <p>An AI-powered stock prediction application that analyzes market trends and forecasts stock movements, with real-time data integration and interactive dashboards.</p>
-          <div class="tech-list"><span>Python</span><span>Data Visualization</span><span>AI-Assisted Analysis</span></div>
-          <div class="project-links">
-            <a href="#">Source Code →</a>
-          </div>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-top">
-            <h3>Student Management System</h3>
-            <span class="project-tag">Full-Stack Training</span>
-          </div>
-          <p>A full-stack training project implementing comprehensive student record management with CRUD operations and secure database integration.</p>
-          <div class="tech-list"><span>Java</span><span>Node.js</span><span>React.js</span><span>Bootstrap</span><span>MySQL</span></div>
-          <div class="project-links">
-            <a href="#">Source Code →</a>
+            <span class="chip">Adaptability</span>
+            <span class="chip">Quick Learner</span>
+            <span class="chip">Attention to Detail</span>
           </div>
         </div>
       </div>
@@ -662,7 +585,7 @@
   });
 
   // Typing effect in hero kicker
-  const phrases = ["hello, world.", "IT diploma student.", "aspiring software developer."];
+  const phrases = ["hello, world.", "B.Sc. graduate.", "research & analytical thinker."];
   const typedEl = document.getElementById('typedText');
   let phraseIndex = 0, charIndex = 0, deleting = false;
 
